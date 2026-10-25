@@ -1,0 +1,2 @@
+# Optional map preparation only; not needed to serve the bundled pack.
+shapely>=2,<3
