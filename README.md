@@ -2,9 +2,9 @@
 
 HARBOR is an emergency-information dashboard for incident reports, operator review, and LoRa/Meshtastic communication with the FORGE AI assistant.
 
-## Project provenance
+## About
 
-This public repository is an **import of an existing project**, the earlier HARBOR + FORGE codebase, and includes code developed before and during Harbor Hacks 2026. The import commits document **publication and organization of existing files**, not when each component was originally written. See the original repository history for development dates, and identify hackathon-specific work separately when presenting the project.
+HARBOR was built with FORGE AI and integrates Meshtastic LoRa for incident reporting and operator review. This public repository includes an imported codebase with work from before and during Harbor Hacks 2026; commit publication dates are not necessarily feature creation dates.
 
 ## Components
 
