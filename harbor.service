@@ -1,0 +1,14 @@
+[Unit]
+Description=HARBOR Offline Emergency Command
+After=network.target
+
+[Service]
+Type=simple
+WorkingDirectory=/root/harbor
+Environment=HARBOR_PORT=8010
+ExecStart=/root/harbor/start.sh
+Restart=always
+RestartSec=3
+
+[Install]
+WantedBy=multi-user.target
