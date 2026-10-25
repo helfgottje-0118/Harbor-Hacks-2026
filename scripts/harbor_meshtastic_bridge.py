@@ -50,7 +50,7 @@ def parse_message(text):
     text = text.strip()
     # Meshtastic phone keyboards sometimes insert a space after the slash.
     # Normalize command spelling only; preserve the incident description.
-    text = re.sub(r"^/\\s+(?=[A-Za-z])", "/", text)
+    text = re.sub(r"^/\s+(?=[A-Za-z])", "/", text)
     low = text.lower()
     if low == "/status":
         return ("status", "")
