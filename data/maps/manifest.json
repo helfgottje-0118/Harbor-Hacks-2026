@@ -1,0 +1,32 @@
+{
+  "version": 1,
+  "area": "Charleston central-area snapshot (not the entire county)",
+  "bbox": [
+    -80.02,
+    32.7,
+    -79.84,
+    32.86
+  ],
+  "sources": {
+    "basemap": {
+      "file": "basemap.geojson",
+      "source": "OpenStreetMap contributors",
+      "url": "https://overpass.private.coffee/api/interpreter",
+      "downloaded_at": "2026-10-11T22:40:28.360134+00:00",
+      "feature_count": 30187,
+      "sha256": "8b1c2200f71b47c02e0d7a6d3fc3df22eb8adcbacec1c86d943e4d9d8f5eb6da",
+      "license": "ODbL 1.0; https://www.openstreetmap.org/copyright",
+      "source_timestamp": "2026-07-28T02:16:18Z"
+    },
+    "flood_zones": {
+      "file": "flood-zones.geojson",
+      "source": "FEMA National Flood Hazard Layer (NFHL)",
+      "url": "https://hazards.fema.gov/arcgis/rest/services/public/NFHL/MapServer/28",
+      "downloaded_at": "2026-10-11T22:40:28.360134+00:00",
+      "feature_count": 1535,
+      "sha256": "9819db65a2f8199fcd3905d3a61d882442b676389ef5a315b8138a1574e2c1ab",
+      "license": "US federal flood hazard data; FEMA limitations apply"
+    }
+  },
+  "limitations": "Static risk zones, not current water extent or depth. Absence of shading does not mean safe. Street lines only; no routing or passability. FEMA geometry generalized at 0.00001 degrees and clipped to coverage."
+}

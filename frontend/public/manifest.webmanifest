@@ -1,0 +1,10 @@
+{
+  "name": "HARBOR Emergency Operations",
+  "short_name": "HARBOR",
+  "description": "Offline emergency command and coordination console",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#05070b",
+  "theme_color": "#07315d",
+  "icons": [{"src":"/harbor-icon.svg","sizes":"any","type":"image/svg+xml","purpose":"any"}]
+}
