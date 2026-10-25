@@ -8,3 +8,7 @@ __pycache__/
 .pytest_cache/
 .ruff_cache/
 .env
+
+# Keep local credentials and environment overrides out of Git
+.env.*
+!.env.example
